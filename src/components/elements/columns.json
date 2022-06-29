@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_elements_columns",
+  "info": {
+    "displayName": "columns",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.link"
+    }
+  }
+}

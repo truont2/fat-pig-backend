@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_elements_notification_banners",
+  "info": {
+    "displayName": "notificationBanner",
+    "icon": "battery-quarter"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "alert",
+        "info",
+        "warning"
+      ]
+    }
+  }
+}

@@ -15,6 +15,7 @@
     "@strapi/strapi": "4.2.0",
     "@strapi/utils": "^4.2.0",
     "better-sqlite3": "7.4.6",
+    "js-cookie": "^3.0.1",
     "pg": "^8.7.3"
   },
   "author": {

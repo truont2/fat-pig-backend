@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_bottom_actions",
+  "info": {
+    "displayName": "Bottom actions",
+    "icon": "clipboard-list"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.button-link"
+    }
+  }
+}
