@@ -1,9 +1,7 @@
 {
-  "collectionName": "components_elements_feature_rows",
+  "collectionName": "components_elements_row_features",
   "info": {
-    "displayName": "Feature row",
-    "icon": "award",
-    "description": ""
+    "displayName": "row features"
   },
   "options": {},
   "attributes": {
@@ -14,15 +12,14 @@
       "type": "string"
     },
     "media": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     },
     "link": {
       "type": "component",

@@ -39,11 +39,11 @@
       "type": "dynamiczone",
       "components": [
         "sections.hero",
-        "sections.feature-row-group",
         "sections.bottom-actions",
         "sections.feature-column-group",
         "sections.lead-form",
-        "sections.rich-text"
+        "sections.rich-text",
+        "sections.feature-row-group"
       ],
       "pluginOptions": {
         "i18n": {
