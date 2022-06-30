@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_elements_logos",
+  "info": {
+    "displayName": "Logos",
+    "icon": "gifts"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
