@@ -2,7 +2,8 @@
   "collectionName": "components_sections_bottom_actions",
   "info": {
     "displayName": "Bottom actions",
-    "icon": "clipboard-list"
+    "icon": "clipboard-list",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,6 +14,10 @@
       "type": "component",
       "repeatable": true,
       "component": "links.button-link"
+    },
+    "SectionName": {
+      "type": "string",
+      "required": true
     }
   }
 }
