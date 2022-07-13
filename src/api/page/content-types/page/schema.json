@@ -38,12 +38,13 @@
     "contentSections": {
       "type": "dynamiczone",
       "components": [
-        "sections.hero",
         "sections.bottom-actions",
         "sections.feature-column-group",
+        "sections.feature-row-group",
+        "sections.hero",
         "sections.lead-form",
         "sections.rich-text",
-        "sections.feature-row-group"
+        "sections.location"
       ],
       "pluginOptions": {
         "i18n": {
