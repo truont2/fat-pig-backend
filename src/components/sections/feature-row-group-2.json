@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_feature_row_group_2s",
+  "info": {
+    "displayName": "feature row group 2",
+    "icon": "ankh"
+  },
+  "options": {},
+  "attributes": {
+    "features": {
+      "displayName": "features",
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.features"
+    }
+  }
+}

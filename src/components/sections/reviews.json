@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_reviews",
+  "info": {
+    "displayName": "Reviews",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "SectionName": {
+      "type": "string"
+    }
+  }
+}

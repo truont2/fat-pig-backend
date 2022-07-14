@@ -43,7 +43,10 @@
         "sections.feature-row-group",
         "sections.hero",
         "sections.lead-form",
-        "sections.rich-text"
+        "sections.location",
+        "sections.rich-text",
+        "sections.reviews",
+        "elements.menu-item"
       ],
       "pluginOptions": {
         "i18n": {

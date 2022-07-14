@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_elements_feature_rows",
+  "collectionName": "components_elements_menu_items",
   "info": {
-    "displayName": "Feature row",
+    "displayName": "menu item",
     "icon": "apple-alt"
   },
   "options": {},
@@ -12,7 +12,10 @@
     "description": {
       "type": "string"
     },
-    "media": {
+    "price": {
+      "type": "decimal"
+    },
+    "image": {
       "allowedTypes": [
         "images",
         "files",
@@ -21,11 +24,6 @@
       ],
       "type": "media",
       "multiple": false
-    },
-    "link": {
-      "type": "component",
-      "repeatable": false,
-      "component": "links.link"
     }
   }
 }
