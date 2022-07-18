@@ -46,7 +46,7 @@
         "sections.location",
         "sections.rich-text",
         "sections.reviews",
-        "elements.menu-item"
+        "sections.menu-items"
       ],
       "pluginOptions": {
         "i18n": {
