@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_business_hours_contacts",
+  "info": {
+    "displayName": "business hours / contact",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "hours": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.business-hours"
+    }
+  }
+}
