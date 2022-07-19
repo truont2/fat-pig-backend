@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_elements_business_hours",
+  "info": {
+    "displayName": "Business hours",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "weekdayStart": {
+      "type": "time"
+    },
+    "weekdayEnd": {
+      "type": "time"
+    },
+    "weekendStart": {
+      "type": "time"
+    },
+    "weekendEnd": {
+      "type": "time"
+    }
+  }
+}
