@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_about_page_images",
+  "info": {
+    "displayName": "about page images",
+    "icon": "angry",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "SectionName": {
+      "type": "string"
+    }
+  }
+}

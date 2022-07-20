@@ -46,7 +46,8 @@
         "sections.location",
         "sections.rich-text",
         "sections.reviews",
-        "sections.menu-items"
+        "sections.menu-items",
+        "sections.about-page-images"
       ],
       "pluginOptions": {
         "i18n": {
