@@ -20,6 +20,11 @@
     },
     "SectionName": {
       "type": "string"
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.button-link"
     }
   }
 }

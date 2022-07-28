@@ -2,7 +2,8 @@
   "collectionName": "components_elements_menu_items",
   "info": {
     "displayName": "menu item",
-    "icon": "apple-alt"
+    "icon": "apple-alt",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -16,14 +17,18 @@
       "type": "decimal"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "type": {
+      "type": "string"
     }
   }
 }
