@@ -13,9 +13,6 @@
     "description": {
       "type": "string"
     },
-    "price": {
-      "type": "decimal"
-    },
     "image": {
       "type": "media",
       "multiple": false,
@@ -28,6 +25,9 @@
       ]
     },
     "type": {
+      "type": "string"
+    },
+    "price": {
       "type": "string"
     }
   }
