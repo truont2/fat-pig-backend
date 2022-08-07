@@ -10,12 +10,17 @@
     "title": {
       "type": "string"
     },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.button-link"
+    },
     "description": {
       "type": "string"
     },
-    "image": {
+    "picture": {
       "type": "media",
-      "multiple": false,
+      "multiple": true,
       "required": false,
       "allowedTypes": [
         "images",
@@ -23,6 +28,9 @@
         "videos",
         "audios"
       ]
+    },
+    "SectionName": {
+      "type": "string"
     }
   }
 }

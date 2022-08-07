@@ -10,25 +10,58 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "shortName": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "metadata": {
       "displayName": "metadata",
       "type": "component",
       "repeatable": false,
-      "component": "meta.metadata"
+      "component": "meta.metadata",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "contentSections": {
       "type": "dynamiczone",
       "components": [
-        "sections.hero"
-      ]
+        "sections.bottom-actions",
+        "sections.feature-column-group",
+        "sections.feature-row-group",
+        "sections.hero",
+        "sections.lead-form",
+        "sections.location",
+        "sections.rich-text",
+        "sections.reviews",
+        "sections.menu-items",
+        "sections.about-page-images"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "slug": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

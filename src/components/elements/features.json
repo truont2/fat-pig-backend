@@ -1,9 +1,8 @@
 {
-  "collectionName": "components_elements_feature_rows",
+  "collectionName": "components_elements_features",
   "info": {
-    "displayName": "Feature row",
-    "icon": "apple-alt",
-    "description": ""
+    "displayName": "features",
+    "icon": "battery-half"
   },
   "options": {},
   "attributes": {
@@ -11,18 +10,17 @@
       "type": "string"
     },
     "description": {
-      "type": "text"
+      "type": "string"
     },
     "media": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     },
     "link": {
       "type": "component",

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_feature_column_groups",
+  "info": {
+    "displayName": "Feature column group",
+    "icon": "anchor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.feature-column"
+    },
+    "SectionName": {
+      "type": "string"
+    }
+  }
+}

@@ -2,7 +2,8 @@
   "collectionName": "components_elements_notification_banners",
   "info": {
     "displayName": "notificationBanner",
-    "icon": "battery-quarter"
+    "icon": "battery-quarter",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -16,6 +17,9 @@
         "info",
         "warning"
       ]
+    },
+    "status": {
+      "type": "boolean"
     }
   }
 }

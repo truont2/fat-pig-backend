@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_locations",
+  "info": {
+    "displayName": "location",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "weekdayStart": {
+      "type": "time"
+    },
+    "WeekdayEnd": {
+      "type": "time"
+    },
+    "weekendStart": {
+      "type": "time"
+    },
+    "weekendEnd": {
+      "type": "time"
+    },
+    "SectionName": {
+      "type": "string"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_elements_feature_rows",
+  "collectionName": "components_elements_menu_items",
   "info": {
-    "displayName": "Feature row",
+    "displayName": "menu item",
     "icon": "apple-alt",
     "description": ""
   },
@@ -11,9 +11,9 @@
       "type": "string"
     },
     "description": {
-      "type": "text"
+      "type": "string"
     },
-    "media": {
+    "image": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -24,10 +24,11 @@
         "audios"
       ]
     },
-    "link": {
-      "type": "component",
-      "repeatable": false,
-      "component": "links.link"
+    "type": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
     }
   }
 }

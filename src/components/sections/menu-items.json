@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_menu_items",
+  "info": {
+    "displayName": "menu items",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "menuItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.menu-item"
+    },
+    "SectionName": {
+      "type": "string"
+    }
+  }
+}
